@@ -1,0 +1,181 @@
+.nav{
+	width: 1174px;
+	display: flex;
+	justify-content: center;
+}
+.ul_nav{
+	margin-right: auto!important;
+}
+nav{
+	margin: auto;
+	display: flex;
+	justify-content: center!important;
+	width: auto;
+	background-color: transparent!important;
+}
+.carousel_1{
+	width: 50%!important;
+	height: 90vh;
+}
+.rgba{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+	width: 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+.rgba_1{
+	background-image: url(187.jpg);
+}
+.rgba_2{
+	background-image: url(https://img.freepik.com/free-photo/electric-blender-mixer-and-juicer-set_140725-7263.jpg?size=626&ext=jpg&ga=GA1.2.1885442164.1659594117);
+}
+.rgba_3{
+	background-image: url(https://img.freepik.com/free-psd/front-view-of-business-mockup-sign-design_23-2148951860.jpg?size=626&ext=jpg&ga=GA1.2.1885442164.1659594117);
+}
+.rgba_4{
+	background-image: url(https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?size=626&ext=jpg&ga=GA1.2.1885442164.1659594117);
+}
+.rgba_5{
+	background-image: url(https://img.freepik.com/free-photo/group-young-business-people-working-office_158595-5210.jpg?size=626&ext=jpg&ga=GA1.2.1885442164.1659594117);
+}
+.rgba_6{
+	background-image: url(https://img.freepik.com/free-photo/villa-house-model-key-drawing-retro-desktop-real-estate-sale-concept_1387-310.jpg?size=626&ext=jpg&ga=GA1.2.1885442164.1659594117);
+}
+.rgba_7{
+	background-image: url();
+}
+.card_1{
+	background-image: url(rasm.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	border-radius: 50px!important;
+	margin: 50px;
+}
+.card_row{
+	margin-top: 190px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%!important;
+	border-radius: 50px;
+}
+span{
+	font-size: 30px;
+}
+.btn_1{
+	padding: 15px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 9px;
+	background-color: rgba(50.5,100,100,0.5);
+	color: white;
+	margin-left: 80px;
+	position: relative;
+	z-index: 1;
+}
+.btn_1:before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 0;
+	height: 100%;
+	background-color: rgba(173, 243, 233, 0.40);
+	z-index: -1;
+	transition: all .3s ease;
+	text-decoration: none;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 9px;
+}
+
+.btn_1:hover:before{
+	width: 100%;
+}
+.btn_1:hover{
+	text-decoration: none!important;
+	color: white;
+
+}
+.rang{
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+}
+h2{
+	font-size: 30px;
+	color: black;
+}
+.heading h1{
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding-top: 250px;
+	font-size: 100px;
+	font-family: 'Passion One', cursive;
+}
+.heading{
+	text-align: center;
+	color: white;
+}
+
+
+*{
+			box-sizing: border-box;
+		}
+		.parent{
+			display: flex;
+			overflow-x: scroll;
+			padding: 24px;
+			width: 100%;
+			scroll-snap-type: x mandatory;
+			scroll-padding: 24px;
+			border-radius: 8px;
+			gap: 12px;
+		}
+		.parent .card_1{
+			flex: 0 0 20%;
+			width: 20rem;
+			border-radius: 8px ;
+			scroll-snap-align: start;
+			height: 400px;
+		}
+.parent{
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 768px){
+	.ul_nav{
+	margin-right: auto;
+	}
+	.rgba{
+		background-size: cover!important;
+		height: 80vh;
+		width: 100%;
+	}
+	
+		.parent{
+			display: flex;
+			overflow-x: scroll;
+			padding: 24px;
+			width: 100%;
+			scroll-snap-type: x mandatory;
+			scroll-padding: 24px;
+			border-radius: 8px;
+			gap: 12px;
+		}
+		.parent .card_1{
+			flex: 0 0 85%;
+			width: 20rem;
+			border-radius: 8px ;
+			scroll-snap-align: start;
+			height: 400px;
+		}
+}
